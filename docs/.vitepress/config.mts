@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Remember",
   description: "123",
+  base: 'user.github.io/repo/base/repo/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
